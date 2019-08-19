@@ -1,0 +1,152 @@
+@charset "utf-8";
+body{
+	background-color:#ECF0F7;	margin:0px;		
+	padding:0px;	font-size:12px;	font-family:Arial, Helvetica, sans-serif;
+}
+.main{
+	width:960px;	margin:auto; background-color:#FFFFFF; 
+}
+.header{
+	height:180px;	margin-bottom:10px;
+}
+.logo{
+	height:140px;	margin-bottom:2px;
+}
+.menu{
+	height:30px;	line-height:30px;
+}
+.menu>ul{
+	background:url(../images/menu.jpg) repeat-x;
+	height:30px;	border-radius:5px 5px 0px 0px;
+}
+.menu>ul>li{
+	list-style:none;	float:left;
+	border-left:1px  dotted #FFF;
+}
+.menu>ul>li:first-child{
+	padding-left:5px;	border:none;
+}
+.menu>ul>li>a{
+	padding:0px 20px;	text-decoration:none;
+	color:#FFF;		display:block;	font-weight:bold;
+}
+.menu>ul>li>a:hover{
+	color:#fff300;
+}
+.banner{	width:960px; height:240px;	margin-bottom:5px; }
+
+.contentleft{ 	
+	width:650px;	float:left; 
+}
+.groupnews{ 	margin-bottom:10px;	min-height:220px;	
+}
+.tdgroupnews{
+	height:30px;	line-height:30px;	border-radius:5px 5px 0px 0px;
+	background:url(../images/menu.jpg) repeat-x;
+}
+.tdgroupnews img{ padding:5px 10px 0px 10px;	float:left;
+}
+.tdgroupnews a{
+	text-decoration:none;	font-weight:bold;
+	font-size:13px;	color:#FFF;
+}
+.tdgroupnews a:hover{	color:#fff300; 
+}
+.ndgroupnews{
+	min-height:180px;	padding-top:5px;
+}
+.tinnoibat{  width:370px;	height:140px;	float:left;
+}
+.tieude{ 	margin-bottom:5px;	margin-left:5px; text-align:justify;
+}
+.tieude a{
+	font-weight:bold;	font-size:13px;	text-decoration:none;
+}
+.tieude a:hover{ 	color:#FF0000;
+}
+.noidung{
+	height: 180px;	width: 365px;	margin-left: 5px 5px;
+}
+.noidung img{ 	float:left;	margin-right:10px;
+}
+.noidung p{ 	text-align:justify; 
+}
+
+.tinkhac{
+	width:260px;
+	height:180px;
+	float:left;
+	padding-left:5px;
+}
+.tinkhac ul{ 
+	list-style-image:url(../images/space_new.png); 
+}
+.tinkhac ul>li{ 
+	padding-bottom:3px;
+}
+.tinkhac a{
+	text-decoration:none;
+}
+.tinkhac a:hover{
+	color:#FF0000; text-decoration:underline;
+}
+
+.contentright{
+	width:290px;	float:left;		padding:0px 5px;	margin-left:5px
+}
+.tintieubieu{
+	width:260px;	height:195px; 	float:left;
+	padding-left:15px;	padding-right:15px;	margin:0; text-align:justify;
+}
+.tintieubieu ul{
+	margin-top:15px;
+	list-style-image:url(../images/mui-ten.png);
+	padding-left:15px;
+	text-align:justify;
+}
+.tintieubieu ul>li{ 
+	padding-bottom:6px;
+}
+.tintieubieu a{
+	text-decoration:none;
+}
+.tintieubieu a:hover{
+	text-decoration:underline; color:#F00;
+}
+
+.quangcao a{ 
+	text-decoration:none; padding:1px;
+}
+
+.clear{
+	clear:both;
+}
+.footer{
+	height:50px;	width:960px;
+	background:url(../images/footer.png) repeat-x;
+}
+.footer p{
+	margin:7px 0px;	color:#FFF;
+}
+.footer a{
+	text-decoration:none;	color:#FFF;	padding:0px 5px;
+}
+.footer a:hover{
+	color:#fff300;	font-weight:bold;
+}
+.footerleft{
+	width:350px;	float:left;	padding-left:20px;
+}
+.footerright{
+	width:280px;	float:right;	padding-left:20px;
+}
+.footercenter{
+	width:240px;	float:left;	padding-left:20px;
+}
+
+
+
+
+
+
+
